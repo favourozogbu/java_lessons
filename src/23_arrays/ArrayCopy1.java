@@ -4,8 +4,9 @@
             int[ ] dest = new int[9];
      
             System.arraycopy( src, 0, dest, 0, 4 );
-            for(int i = 0; i< dest.length; i++){
+            for(int i = 0; i< dest.length; ++i){
                 System.out.println(dest[i]);
+                i++;
      }
         }
      
